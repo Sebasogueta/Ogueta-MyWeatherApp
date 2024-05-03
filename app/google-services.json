@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159133839153",
+    "project_id": "myweatherapp-af02e",
+    "storage_bucket": "myweatherapp-af02e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159133839153:android:df6b4783944e561aa9ca10",
+        "android_client_info": {
+          "package_name": "com.example.ogueta_myweatherapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcb6RbsMEH1WewLWam2gNDwLzIDAfdczU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
