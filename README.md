@@ -11,13 +11,13 @@ The **Sunshine Weather App** provides weather information for various cities. It
 - Welcomes the user.
 - Provides login and register buttons for access.
 
-![Sunshine Logo](images/home_screen.png)
+![Home Screen](images/home_screen.png)
 
 
 ### Login and Register Screens
 - Allows users to sign in or register for an account.
 
-![Sunshine Logo](images/login_register_screen.png)
+![Login and Register Screen](images/login_register_screen.png)
 
 ### Favorites Screen
 - Displays a list of favorite cities stored in Firestore Database.
@@ -25,7 +25,7 @@ The **Sunshine Weather App** provides weather information for various cities. It
 - Enables users to remove cities from favorites using the heart icon.
 - Facilitates navigation to weather details by tapping on the city name.
 
-![Sunshine Logo](images/favorite_screen.png)
+![Favorites Screen](images/favorite_screen.png)
 
 ### Search Screen
 - Accessible via the navigation bar or by clicking on a city name in the Favorites screen.
@@ -33,25 +33,25 @@ The **Sunshine Weather App** provides weather information for various cities. It
 - Retrieves weather data from Tomorrow.io API using the obtained coordinates.
 - Presents weather information in a user-friendly format.
 
-![Sunshine Logo](images/search_screen.png)
+![Search Screen](images/search_screen.png)
 
 ## Functionality Details
 
 ### Bottom Navigation Bar
 - Enables fast navigation between different screens (Favorites, Home, and Search).
 
-![Sunshine Logo](images/bottom_navigation_bar.png)
+![Bottom Navigation Bar](images/bottom_navigation_bar.png)
 
 ### Authentication (Firebase Authentication)
 - Integrates Firebase Authentication for secure user sessions.
 
-![Sunshine Logo](images/firebase_auth.png)
+![Firebase Auth](images/firebase_auth.png)
 
 ### Favorites Management
 - Permits logged-in users to add or remove cities from their favorites.
 - Uses Firestore Database to store and retrieve user-specific favorite cities.
 
-![Sunshine Logo](images/firebase_firestore_favs.png)
+![Firebase Firestore Favs](images/firebase_firestore_favs.png)
 
 ### Weather Search
 - Includes a city name input field for user queries.
@@ -82,14 +82,14 @@ The **Sunshine Weather App** provides weather information for various cities. It
 - Methods such as `signInWithEmailAndPassword()` and `createUserWithEmailAndPassword()` are used.
 - A ViewModel is implemented to maintain user authentication sessions.
 
-![Sunshine Logo](images/userviewmodel.png)
+![UserViewModel](images/userviewmodel.png)
 
 ### Favorites Management (Firestore Database)
 - Uses Firestore Database to store user-specific favorite cities.
 - Retrieves and modifies data using Firestore queries like `collection()` and `document()`.
 - Data is structured in Firestore collections for efficient access.
 
-![Sunshine Logo](images/getfavoritecities.png)
+![GetFavoriteCities](images/getfavoritecities.png)
 
 ### Weather Search (API Integration)
 - Uses OpenWeatherMap's Geocodes API to validate city names and retrieve location data.
@@ -119,10 +119,10 @@ https://api.tomorrow.io/v4/timelines?location=${cityInfo.coordinates}&fields=tem
 - JSON responses from APIs are parsed into corresponding data classes for structured representation.
 - Examples:
   - `searchCity()` for city search results.
-       ![Sunshine Logo](images/searchCity.png)
+       ![Search City](images/searchCity.png)
   - `listWeather()` for weather information retrieval.
-       ![Sunshine Logo](images/listWeather_1.png)
-       ![Sunshine Logo](images/listWeather_2.png)
+       ![ListWeather 1](images/listWeather_1.png)
+       ![ListWeather 2](images/listWeather_2.png)
 
 ---
 **Author:** Sebastián Ogueta
